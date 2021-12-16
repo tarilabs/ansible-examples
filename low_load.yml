@@ -1,0 +1,6 @@
+- name: low load
+  hosts: all
+  tasks:
+    - name: sysout
+      debug:
+        msg: "Reacting to low load."

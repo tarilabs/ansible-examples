@@ -1,0 +1,6 @@
+- name: very high load
+  hosts: all
+  tasks:
+    - name: sysout
+      debug:
+        msg: "Reacting to VERY HIGH load."
