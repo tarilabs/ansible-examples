@@ -1,0 +1,6 @@
+- name: normal load
+  hosts: all
+  tasks:
+    - name: sysout
+      debug:
+        msg: "Reacting to normal load."
